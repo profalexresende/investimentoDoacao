@@ -1,0 +1,16 @@
+﻿<Window x:Class="investimentoDoacao.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:investimentoDoacao"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250" Width="400">
+    <Grid>
+        <Label x:Name="lblDoacao" Content="Valor da Doação" HorizontalAlignment="Left" Margin="39,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtDoacao" HorizontalAlignment="Left" Margin="39,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnCalcular" Content="Calcular Investimento" HorizontalAlignment="Left" Margin="39,64,0,0" VerticalAlignment="Top" Width="120" Click="btnCalcular_Click"/>
+        <Label x:Name="lblValorInvestir" Content="Aqui aparecerá o valor do investimento" HorizontalAlignment="Left" Margin="39,98,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
